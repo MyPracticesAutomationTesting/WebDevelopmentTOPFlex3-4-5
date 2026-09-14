@@ -1,0 +1,204 @@
+
+/*flex-header 02*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+.to-the-side {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
+
+
+.logo {
+    color: purple;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+    font-size: 18px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: purple;
+}
+
+.grey-area {
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px; /*a space for the next assignment below*/
+
+}
+
+/*flex-information*/
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.info-heading {  
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+
+.plants-list {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    
+}
+
+
+.plant {
+    max-width: 200px;
+    margin-bottom: 20px; /*this is a space for the next assignment, the modal below*/
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*flex-modal*/
+
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: lightgray;
+    
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 480px;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+
+}
+
+.exclamation-mark {
+    display: flex;
+    flex: 0 0 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: blue;
+    background-color: lightgray;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    
+
+}
+
+
+.the-rest {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
+
+.title-and-close {
+    display: flex;
+    gap: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size:larger;
+    align-items: flex-start;
+    
+}
+
+.title {
+    flex: 1;
+}
+
+
+.close {
+    display: flex;
+    color: gray;
+    background-color: lightgray;
+    flex: 0 0 24px;
+    height: 24px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
+
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.continue-btn {
+    background-color: blue;
+    border: 1px solid;
+}
+
+.cancel-btn {
+    color: blue;
+    background-color: white;
+    border:1px solid lightgray;
+}
+
